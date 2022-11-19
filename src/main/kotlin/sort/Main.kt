@@ -14,7 +14,8 @@ fun main() {
     arrayPrinter(arr)
 
     val sortedArray =
-        BubbleSort.sort(arr)
+//        BubbleSort.sort(arr)
+        SelectionSort.sort(arr)
 
     println("정렬된 배열")
     arrayPrinter(sortedArray)
