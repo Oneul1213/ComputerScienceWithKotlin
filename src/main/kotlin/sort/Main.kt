@@ -19,7 +19,8 @@ fun main() {
 //        InsertionSort.sort(arr)
 
 //        HeapSort.sort(arr)
-        MergeSort.sort(arr)
+//        MergeSort.sort(arr)
+        QuickSort.sort(arr)
 
     println("정렬된 배열")
     arrayPrinter(sortedArray)
